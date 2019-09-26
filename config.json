@@ -1,0 +1,14 @@
+{
+  "ENV": "DEBUG",
+  "VAR_HOST": "localhost",
+  "VAR_USER": "root",
+  "VAR_PASSWORD": "",
+  "VAR_DATABASE": "challenge",
+  "VAR_APPLICATION_NAME": "Challenge",
+  "HOST_SERVER": "http://192.168.1.95:8086",
+  "PORT": 4000,
+  "MORGAN": false,
+  "LOG_DIR": "log/",
+  "DIR_NAME": "",
+  "disk": "/uploads"
+}

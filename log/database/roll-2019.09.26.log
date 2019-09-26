@@ -1,0 +1,456 @@
+14:54:02.861 INFO  ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+{"code":"ER_PARSE_ERROR","errno":1064,"sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1","sqlState":"42000","index":0,"sql":"INSERT INTO `match` (season_id, `group`, match_code, player1, player2, `time`, `date`, venue, score) VALUES  (1, 'C1', 'C1-1-2', 'Mark Zuckerberg', 'Diane Greene', '14:00:00', '16/02/2017', 'Legend', 'Diane Greene gave up'), (1, 'C1', 'C1-1-3', 'Mark Zuckerberg', 'Ruth Porat', '16:00:00', '14/02/2017', 'Twins', '37016'), (1, 'C1', 'C1-2-3', 'Diane Greene', 'Ruth Porat', '14:00:00', '16/02/2017', 'Legend', 'Diane Greene gave up'), (1, 'C2', 'C2-1-2', 'Elon Musk', 'Eric Schmidt', '18:00:00', '16/02/2017', 'Carmen', '37016'), (1, 'C2', 'C2-1-3', 'Elon Musk', 'Liam Wong', '12:00:00', '16/02/2017', 'Twins', '37046'), (1, 'C2', 'C2-2-3', 'Eric Schmidt', 'Liam Wong', '14:00:00', '15/02/2017', 'Legend', '37016'), (1, 'C3', 'C3-1-2', 'Sergey Brin', 'Lawrence Page', '14:00:00', '13/02/2017', 'Legend', 'Sergey Brin gave up'), (1, 'C3', 'C3-1-3', 'Sergey Brin', 'John Doerr', '14:00:00', '16/02/2017', 'Legend', 'Sergey Brin gave up'), (1, 'C3', 'C3-1-4', 'Sergey Brin', 'Sean Almond', '14:00:00', '17/02/2017', 'Legend', 'Sergey Brin gave up'), (1, 'C3', 'C3-2-3', 'Lawrence Page', 'John Doerr', '19:00:00', '17/02/2017', 'Twins', '37046'), (1, 'C3', 'C3-2-4', 'Lawrence Page', 'Sean Almond', '19:00:00', '13/02/2017', 'Carmen', '37105'), (1, 'C3', 'C3-3-4', 'John Doerr', 'Sean Almond', '22:00:00', '16/02/2017', 'Twins', '36987'), (1, 'C4', 'C4-1-2', 'Ram Shriram', 'Roger Ferguson', '14:00:00', '15/02/2017', 'Professional', '37075'), (1, 'C4', 'C4-1-3', 'Ram Shriram', 'Bill Gates', '18:00:00', '14/02/2017', 'Carmen', '36987'), (1, 'C4', 'C4-1-4', 'Ram Shriram', 'Troy Sincock', '14:00:00', '13/02/2017', 'Carmen', '37135'), (1, 'C4', 'C4-2-3', 'Roger Ferguson', 'Bill Gates', '15:00:00', '15/02/2017', 'Professional', '37046'), (1, 'C4', 'C4-2-4', 'Roger Ferguson', 'Troy Sincock', '13:00:00', '15/02/2017', 'Professional', '37046'), (1, 'C4', 'C4-3-4', 'Bill Gates', 'Troy Sincock', '12:00:00', '15/02/2017', 'Professional', '37135'), (1, 'D1', 'D1-1-2', 'Paul Otellini', 'Ann Mather', '15:00:00', '15/02/2017', 'Twins', '37105'), (1, 'D1', 'D1-1-3', 'Paul Otellini', 'Sheryl Sandberg', '14:00:00', '14/02/2017', 'Twins', '37075'), (1, 'D1', 'D1-2-3', 'Ann Mather', 'Sheryl Sandberg', '17:00:00', '13/02/2017', 'Carmen', '36900'), (1, 'D2', 'D2-1-2', 'David Drummond', 'Elizabeth Katze', '15:00:00', '14/02/2017', 'Legend', '37046'), (1, 'D2', 'D2-1-3', 'David Drummond', 'Lex Bayer', '17:00:00', '13/02/2017', 'Professional', '37075'), (1, 'D2', 'D2-2-3', 'Elizabeth Katze', 'Lex Bayer', '19:00:00', '13/02/2017', 'Carmen', '37046'), (1, 'D3', 'D3-1-2', 'Andrea Belotti', 'Nathan Blecharczyk', '14:00:00', '15/02/2017', 'Legend', '37075'), (1, 'D3', 'D3-1-3', 'Andrea Belotti', 'Brian Chesky', '20:00:00', '16/02/2017', 'Legend', '36987'), (1, 'D3', 'D3-1-4', 'Andrea Belotti', 'Joe Gebbia', '20:00:00', '17/02/2017', 'Legend', '36956'), (1, 'D3', 'D3-2-3', 'Nathan Blecharczyk', 'Brian Chesky', '18:00:00', '13/02/2017', 'Legend', '36987'), (1, 'D3', 'D3-2-4', 'Nathan Blecharczyk', 'Joe Gebbia', '15:00:00', '14/02/2017', 'Carmen', '37016'), (1, 'D3', 'D3-3-4', 'Brian Chesky', 'Joe Gebbia', '18:00:00', '17/02/2017', 'Legend', '36957'), (1, 'D4', 'D4-1-2', 'Douglas Atkin', 'Joe Zadeh', '19:00:00', '16/02/2017', 'Legend', '36987'), (1, 'D4', 'D4-1-3', 'Douglas Atkin', 'Chip Conley', '16:00:00', '14/02/2017', 'Carmen', '10-0'), (1, 'D4', 'D4-2-3', 'Joe Zadeh', 'Chip Conley', '17:00:00', '14/02/2017', 'Carmen', '37105'),"}
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+    at Query.Sequence._packetToError (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:200:25)
+    at Promise (C:\Users\W10\Desktop\challenge\services\db.js:49:20)
+    at new Promise (<anonymous>)
+    at simpleQuery (C:\Users\W10\Desktop\challenge\services\db.js:48:12)
+    at C:\Users\W10\Desktop\challenge\services\db.js:75:9
+    at new Promise (<anonymous>)
+    at Object.excuteQuery (C:\Users\W10\Desktop\challenge\services\db.js:74:12)
+    at Object.readFileAndInsertDB (C:\Users\W10\Desktop\challenge\services\upload.js:18:12)
+    at C:\Users\W10\Desktop\challenge\webapi\public\upload.js:7:14 
+15:15:26.370 INFO  ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+{"code":"ER_PARSE_ERROR","errno":1064,"sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1","sqlState":"42000","index":0,"sql":"INSERT INTO `match` (season_id, `group`, match_code, player1, player2, `time`, `date`, venue, score) VALUES"}
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+    at Query.Sequence._packetToError (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:200:25)
+    at Promise (C:\Users\W10\Desktop\challenge\services\db.js:49:20)
+    at new Promise (<anonymous>)
+    at simpleQuery (C:\Users\W10\Desktop\challenge\services\db.js:48:12)
+    at C:\Users\W10\Desktop\challenge\services\db.js:75:9
+    at new Promise (<anonymous>)
+    at Object.excuteQuery (C:\Users\W10\Desktop\challenge\services\db.js:74:12)
+    at Promise (C:\Users\W10\Desktop\challenge\services\match.js:21:20)
+    at <anonymous> 
+16:46:40.292 INFO  ER_DUP_ENTRY: Duplicate entry '0' for key 'PRIMARY'
+{"code":"ER_DUP_ENTRY","errno":1062,"sqlMessage":"Duplicate entry '0' for key 'PRIMARY'","sqlState":"23000","index":0,"sql":"INSERT INTO `match` (season_id, `group`, match_code, player1, player2, `time`, `date`, venue, score) VALUES  (1, 'C1', 'C1-1-2', 'Mark Zuckerberg', 'Diane Greene', '14:00:00', '16/02/2017', 'Legend', 'Diane Greene gave up'), (1, 'C1', 'C1-1-3', 'Mark Zuckerberg', 'Ruth Porat', '16:00:00', '14/02/2017', 'Twins', '5-5'), (1, 'C1', 'C1-2-3', 'Diane Greene', 'Ruth Porat', '14:00:00', '16/02/2017', 'Legend', 'Diane Greene gave up'), (1, 'C2', 'C2-1-2', 'Elon Musk', 'Eric Schmidt', '18:00:00', '16/02/2017', 'Carmen', '5-5'), (1, 'C2', 'C2-1-3', 'Elon Musk', 'Liam Wong', '12:00:00', '16/02/2017', 'Twins', '6-4'), (1, 'C2', 'C2-2-3', 'Eric Schmidt', 'Liam Wong', '14:00:00', '15/02/2017', 'Legend', '5-5'), (1, 'C3', 'C3-1-2', 'Sergey Brin', 'Lawrence Page', '14:00:00', '13/02/2017', 'Legend', 'Sergey Brin gave up'), (1, 'C3', 'C3-1-3', 'Sergey Brin', 'John Doerr', '14:00:00', '16/02/2017', 'Legend', 'Sergey Brin gave up'), (1, 'C3', 'C3-1-4', 'Sergey Brin', 'Sean Almond', '14:00:00', '17/02/2017', 'Legend', 'Sergey Brin gave up'), (1, 'C3', 'C3-2-3', 'Lawrence Page', 'John Doerr', '19:00:00', '17/02/2017', 'Twins', '6-4'), (1, 'C3', 'C3-2-4', 'Lawrence Page', 'Sean Almond', '19:00:00', '13/02/2017', 'Carmen', '8-2'), (1, 'C3', 'C3-3-4', 'John Doerr', 'Sean Almond', '22:00:00', '16/02/2017', 'Twins', '4-6'), (1, 'C4', 'C4-1-2', 'Ram Shriram', 'Roger Ferguson', '14:00:00', '15/02/2017', 'Professional', '7-3'), (1, 'C4', 'C4-1-3', 'Ram Shriram', 'Bill Gates', '18:00:00', '14/02/2017', 'Carmen', '4-6'), (1, 'C4', 'C4-1-4', 'Ram Shriram', 'Troy Sincock', '14:00:00', '13/02/2017', 'Carmen', '9-1'), (1, 'C4', 'C4-2-3', 'Roger Ferguson', 'Bill Gates', '15:00:00', '15/02/2017', 'Professional', '6-4'), (1, 'C4', 'C4-2-4', 'Roger Ferguson', 'Troy Sincock', '13:00:00', '15/02/2017', 'Professional', '6-4'), (1, 'C4', 'C4-3-4', 'Bill Gates', 'Troy Sincock', '12:00:00', '15/02/2017', 'Professional', '9-1'), (1, 'D1', 'D1-1-2', 'Paul Otellini', 'Ann Mather', '15:00:00', '15/02/2017', 'Twins', '8-2'), (1, 'D1', 'D1-1-3', 'Paul Otellini', 'Sheryl Sandberg', '14:00:00', '14/02/2017', 'Twins', '7-3'), (1, 'D1', 'D1-2-3', 'Ann Mather', 'Sheryl Sandberg', '17:00:00', '13/02/2017', 'Carmen', '1-9'), (1, 'D2', 'D2-1-2', 'David Drummond', 'Elizabeth Katze', '15:00:00', '14/02/2017', 'Legend', '6-4'), (1, 'D2', 'D2-1-3', 'David Drummond', 'Lex Bayer', '17:00:00', '13/02/2017', 'Professional', '7-3'), (1, 'D2', 'D2-2-3', 'Elizabeth Katze', 'Lex Bayer', '19:00:00', '13/02/2017', 'Carmen', '6-4'), (1, 'D3', 'D3-1-2', 'Andrea Belotti', 'Nathan Blecharczyk', '14:00:00', '15/02/2017', 'Legend', '7-3'), (1, 'D3', 'D3-1-3', 'Andrea Belotti', 'Brian Chesky', '20:00:00', '16/02/2017', 'Legend', '4-6'), (1, 'D3', 'D3-1-4', 'Andrea Belotti', 'Joe Gebbia', '20:00:00', '17/02/2017', 'Legend', '3-6'), (1, 'D3', 'D3-2-3', 'Nathan Blecharczyk', 'Brian Chesky', '18:00:00', '13/02/2017', 'Legend', '4-6'), (1, 'D3', 'D3-2-4', 'Nathan Blecharczyk', 'Joe Gebbia', '15:00:00', '14/02/2017', 'Carmen', '5-5'), (1, 'D3', 'D3-3-4', 'Brian Chesky', 'Joe Gebbia', '18:00:00', '17/02/2017', 'Legend', '3-7'), (1, 'D4', 'D4-1-2', 'Douglas Atkin', 'Joe Zadeh', '19:00:00', '16/02/2017', 'Legend', '4-6'), (1, 'D4', 'D4-1-3', 'Douglas Atkin', 'Chip Conley', '16:00:00', '14/02/2017', 'Carmen', '10-0'), (1, 'D4', 'D4-2-3', 'Joe Zadeh', 'Chip Conley', '17:00:00', '14/02/2017', 'Carmen', '8-2')"}
+Error: ER_DUP_ENTRY: Duplicate entry '0' for key 'PRIMARY'
+    at Query.Sequence._packetToError (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:200:25)
+    at Promise (C:\Users\W10\Desktop\challenge\services\db.js:49:20)
+    at new Promise (<anonymous>)
+    at simpleQuery (C:\Users\W10\Desktop\challenge\services\db.js:48:12)
+    at C:\Users\W10\Desktop\challenge\services\db.js:75:9
+    at new Promise (<anonymous>)
+    at Object.excuteQuery (C:\Users\W10\Desktop\challenge\services\db.js:74:12)
+    at Promise (C:\Users\W10\Desktop\challenge\services\match.js:22:20)
+    at <anonymous> 
+16:46:58.339 INFO  ER_DUP_ENTRY: Duplicate entry '0' for key 'PRIMARY'
+{"code":"ER_DUP_ENTRY","errno":1062,"sqlMessage":"Duplicate entry '0' for key 'PRIMARY'","sqlState":"23000","index":0,"sql":"INSERT INTO `match` (season_id, `group`, match_code, player1, player2, `time`, `date`, venue, score) VALUES  (1, 'C1', 'C1-1-2', 'Mark Zuckerberg', 'Diane Greene', '14:00:00', '16/02/2017', 'Legend', 'Diane Greene gave up'), (1, 'C1', 'C1-1-3', 'Mark Zuckerberg', 'Ruth Porat', '16:00:00', '14/02/2017', 'Twins', '5-5'), (1, 'C1', 'C1-2-3', 'Diane Greene', 'Ruth Porat', '14:00:00', '16/02/2017', 'Legend', 'Diane Greene gave up'), (1, 'C2', 'C2-1-2', 'Elon Musk', 'Eric Schmidt', '18:00:00', '16/02/2017', 'Carmen', '5-5'), (1, 'C2', 'C2-1-3', 'Elon Musk', 'Liam Wong', '12:00:00', '16/02/2017', 'Twins', '6-4'), (1, 'C2', 'C2-2-3', 'Eric Schmidt', 'Liam Wong', '14:00:00', '15/02/2017', 'Legend', '5-5'), (1, 'C3', 'C3-1-2', 'Sergey Brin', 'Lawrence Page', '14:00:00', '13/02/2017', 'Legend', 'Sergey Brin gave up'), (1, 'C3', 'C3-1-3', 'Sergey Brin', 'John Doerr', '14:00:00', '16/02/2017', 'Legend', 'Sergey Brin gave up'), (1, 'C3', 'C3-1-4', 'Sergey Brin', 'Sean Almond', '14:00:00', '17/02/2017', 'Legend', 'Sergey Brin gave up'), (1, 'C3', 'C3-2-3', 'Lawrence Page', 'John Doerr', '19:00:00', '17/02/2017', 'Twins', '6-4'), (1, 'C3', 'C3-2-4', 'Lawrence Page', 'Sean Almond', '19:00:00', '13/02/2017', 'Carmen', '8-2'), (1, 'C3', 'C3-3-4', 'John Doerr', 'Sean Almond', '22:00:00', '16/02/2017', 'Twins', '4-6'), (1, 'C4', 'C4-1-2', 'Ram Shriram', 'Roger Ferguson', '14:00:00', '15/02/2017', 'Professional', '7-3'), (1, 'C4', 'C4-1-3', 'Ram Shriram', 'Bill Gates', '18:00:00', '14/02/2017', 'Carmen', '4-6'), (1, 'C4', 'C4-1-4', 'Ram Shriram', 'Troy Sincock', '14:00:00', '13/02/2017', 'Carmen', '9-1'), (1, 'C4', 'C4-2-3', 'Roger Ferguson', 'Bill Gates', '15:00:00', '15/02/2017', 'Professional', '6-4'), (1, 'C4', 'C4-2-4', 'Roger Ferguson', 'Troy Sincock', '13:00:00', '15/02/2017', 'Professional', '6-4'), (1, 'C4', 'C4-3-4', 'Bill Gates', 'Troy Sincock', '12:00:00', '15/02/2017', 'Professional', '9-1'), (1, 'D1', 'D1-1-2', 'Paul Otellini', 'Ann Mather', '15:00:00', '15/02/2017', 'Twins', '8-2'), (1, 'D1', 'D1-1-3', 'Paul Otellini', 'Sheryl Sandberg', '14:00:00', '14/02/2017', 'Twins', '7-3'), (1, 'D1', 'D1-2-3', 'Ann Mather', 'Sheryl Sandberg', '17:00:00', '13/02/2017', 'Carmen', '1-9'), (1, 'D2', 'D2-1-2', 'David Drummond', 'Elizabeth Katze', '15:00:00', '14/02/2017', 'Legend', '6-4'), (1, 'D2', 'D2-1-3', 'David Drummond', 'Lex Bayer', '17:00:00', '13/02/2017', 'Professional', '7-3'), (1, 'D2', 'D2-2-3', 'Elizabeth Katze', 'Lex Bayer', '19:00:00', '13/02/2017', 'Carmen', '6-4'), (1, 'D3', 'D3-1-2', 'Andrea Belotti', 'Nathan Blecharczyk', '14:00:00', '15/02/2017', 'Legend', '7-3'), (1, 'D3', 'D3-1-3', 'Andrea Belotti', 'Brian Chesky', '20:00:00', '16/02/2017', 'Legend', '4-6'), (1, 'D3', 'D3-1-4', 'Andrea Belotti', 'Joe Gebbia', '20:00:00', '17/02/2017', 'Legend', '3-6'), (1, 'D3', 'D3-2-3', 'Nathan Blecharczyk', 'Brian Chesky', '18:00:00', '13/02/2017', 'Legend', '4-6'), (1, 'D3', 'D3-2-4', 'Nathan Blecharczyk', 'Joe Gebbia', '15:00:00', '14/02/2017', 'Carmen', '5-5'), (1, 'D3', 'D3-3-4', 'Brian Chesky', 'Joe Gebbia', '18:00:00', '17/02/2017', 'Legend', '3-7'), (1, 'D4', 'D4-1-2', 'Douglas Atkin', 'Joe Zadeh', '19:00:00', '16/02/2017', 'Legend', '4-6'), (1, 'D4', 'D4-1-3', 'Douglas Atkin', 'Chip Conley', '16:00:00', '14/02/2017', 'Carmen', '10-0'), (1, 'D4', 'D4-2-3', 'Joe Zadeh', 'Chip Conley', '17:00:00', '14/02/2017', 'Carmen', '8-2')"}
+Error: ER_DUP_ENTRY: Duplicate entry '0' for key 'PRIMARY'
+    at Query.Sequence._packetToError (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:200:25)
+    at Promise (C:\Users\W10\Desktop\challenge\services\db.js:49:20)
+    at new Promise (<anonymous>)
+    at simpleQuery (C:\Users\W10\Desktop\challenge\services\db.js:48:12)
+    at C:\Users\W10\Desktop\challenge\services\db.js:75:9
+    at new Promise (<anonymous>)
+    at Object.excuteQuery (C:\Users\W10\Desktop\challenge\services\db.js:74:12)
+    at Promise (C:\Users\W10\Desktop\challenge\services\match.js:22:20)
+    at <anonymous> 
+16:47:40.552 INFO  ER_DUP_ENTRY: Duplicate entry '1' for key 'PRIMARY'
+{"code":"ER_DUP_ENTRY","errno":1062,"sqlMessage":"Duplicate entry '1' for key 'PRIMARY'","sqlState":"23000","index":0,"sql":"INSERT INTO `match` (id, season_id, `group`, match_code, player1, player2, `time`, `date`, venue, score) VALUES  (1, 1, 'C1', 'C1-1-2', 'Mark Zuckerberg', 'Diane Greene', '14:00:00', '16/02/2017', 'Legend', 'Diane Greene gave up'), (2, 1, 'C1', 'C1-1-3', 'Mark Zuckerberg', 'Ruth Porat', '16:00:00', '14/02/2017', 'Twins', '5-5'), (3, 1, 'C1', 'C1-2-3', 'Diane Greene', 'Ruth Porat', '14:00:00', '16/02/2017', 'Legend', 'Diane Greene gave up'), (4, 1, 'C2', 'C2-1-2', 'Elon Musk', 'Eric Schmidt', '18:00:00', '16/02/2017', 'Carmen', '5-5'), (5, 1, 'C2', 'C2-1-3', 'Elon Musk', 'Liam Wong', '12:00:00', '16/02/2017', 'Twins', '6-4'), (6, 1, 'C2', 'C2-2-3', 'Eric Schmidt', 'Liam Wong', '14:00:00', '15/02/2017', 'Legend', '5-5'), (7, 1, 'C3', 'C3-1-2', 'Sergey Brin', 'Lawrence Page', '14:00:00', '13/02/2017', 'Legend', 'Sergey Brin gave up'), (8, 1, 'C3', 'C3-1-3', 'Sergey Brin', 'John Doerr', '14:00:00', '16/02/2017', 'Legend', 'Sergey Brin gave up'), (9, 1, 'C3', 'C3-1-4', 'Sergey Brin', 'Sean Almond', '14:00:00', '17/02/2017', 'Legend', 'Sergey Brin gave up'), (10, 1, 'C3', 'C3-2-3', 'Lawrence Page', 'John Doerr', '19:00:00', '17/02/2017', 'Twins', '6-4'), (11, 1, 'C3', 'C3-2-4', 'Lawrence Page', 'Sean Almond', '19:00:00', '13/02/2017', 'Carmen', '8-2'), (12, 1, 'C3', 'C3-3-4', 'John Doerr', 'Sean Almond', '22:00:00', '16/02/2017', 'Twins', '4-6'), (13, 1, 'C4', 'C4-1-2', 'Ram Shriram', 'Roger Ferguson', '14:00:00', '15/02/2017', 'Professional', '7-3'), (14, 1, 'C4', 'C4-1-3', 'Ram Shriram', 'Bill Gates', '18:00:00', '14/02/2017', 'Carmen', '4-6'), (15, 1, 'C4', 'C4-1-4', 'Ram Shriram', 'Troy Sincock', '14:00:00', '13/02/2017', 'Carmen', '9-1'), (16, 1, 'C4', 'C4-2-3', 'Roger Ferguson', 'Bill Gates', '15:00:00', '15/02/2017', 'Professional', '6-4'), (17, 1, 'C4', 'C4-2-4', 'Roger Ferguson', 'Troy Sincock', '13:00:00', '15/02/2017', 'Professional', '6-4'), (18, 1, 'C4', 'C4-3-4', 'Bill Gates', 'Troy Sincock', '12:00:00', '15/02/2017', 'Professional', '9-1'), (19, 1, 'D1', 'D1-1-2', 'Paul Otellini', 'Ann Mather', '15:00:00', '15/02/2017', 'Twins', '8-2'), (20, 1, 'D1', 'D1-1-3', 'Paul Otellini', 'Sheryl Sandberg', '14:00:00', '14/02/2017', 'Twins', '7-3'), (21, 1, 'D1', 'D1-2-3', 'Ann Mather', 'Sheryl Sandberg', '17:00:00', '13/02/2017', 'Carmen', '1-9'), (22, 1, 'D2', 'D2-1-2', 'David Drummond', 'Elizabeth Katze', '15:00:00', '14/02/2017', 'Legend', '6-4'), (23, 1, 'D2', 'D2-1-3', 'David Drummond', 'Lex Bayer', '17:00:00', '13/02/2017', 'Professional', '7-3'), (24, 1, 'D2', 'D2-2-3', 'Elizabeth Katze', 'Lex Bayer', '19:00:00', '13/02/2017', 'Carmen', '6-4'), (25, 1, 'D3', 'D3-1-2', 'Andrea Belotti', 'Nathan Blecharczyk', '14:00:00', '15/02/2017', 'Legend', '7-3'), (26, 1, 'D3', 'D3-1-3', 'Andrea Belotti', 'Brian Chesky', '20:00:00', '16/02/2017', 'Legend', '4-6'), (27, 1, 'D3', 'D3-1-4', 'Andrea Belotti', 'Joe Gebbia', '20:00:00', '17/02/2017', 'Legend', '3-6'), (28, 1, 'D3', 'D3-2-3', 'Nathan Blecharczyk', 'Brian Chesky', '18:00:00', '13/02/2017', 'Legend', '4-6'), (29, 1, 'D3', 'D3-2-4', 'Nathan Blecharczyk', 'Joe Gebbia', '15:00:00', '14/02/2017', 'Carmen', '5-5'), (30, 1, 'D3', 'D3-3-4', 'Brian Chesky', 'Joe Gebbia', '18:00:00', '17/02/2017', 'Legend', '3-7'), (31, 1, 'D4', 'D4-1-2', 'Douglas Atkin', 'Joe Zadeh', '19:00:00', '16/02/2017', 'Legend', '4-6'), (32, 1, 'D4', 'D4-1-3', 'Douglas Atkin', 'Chip Conley', '16:00:00', '14/02/2017', 'Carmen', '10-0'), (33, 1, 'D4', 'D4-2-3', 'Joe Zadeh', 'Chip Conley', '17:00:00', '14/02/2017', 'Carmen', '8-2')"}
+Error: ER_DUP_ENTRY: Duplicate entry '1' for key 'PRIMARY'
+    at Query.Sequence._packetToError (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:200:25)
+    at Promise (C:\Users\W10\Desktop\challenge\services\db.js:49:20)
+    at new Promise (<anonymous>)
+    at simpleQuery (C:\Users\W10\Desktop\challenge\services\db.js:48:12)
+    at C:\Users\W10\Desktop\challenge\services\db.js:75:9
+    at new Promise (<anonymous>)
+    at Object.excuteQuery (C:\Users\W10\Desktop\challenge\services\db.js:74:12)
+    at Promise (C:\Users\W10\Desktop\challenge\services\match.js:22:20)
+    at <anonymous> 
+16:47:56.514 INFO  ER_DUP_ENTRY: Duplicate entry '2' for key 'PRIMARY'
+{"code":"ER_DUP_ENTRY","errno":1062,"sqlMessage":"Duplicate entry '2' for key 'PRIMARY'","sqlState":"23000","index":0,"sql":"INSERT INTO `match` (id, season_id, `group`, match_code, player1, player2, `time`, `date`, venue, score) VALUES  (1, 1, 'C1', 'C1-1-2', 'Mark Zuckerberg', 'Diane Greene', '14:00:00', '16/02/2017', 'Legend', 'Diane Greene gave up'), (2, 1, 'C1', 'C1-1-3', 'Mark Zuckerberg', 'Ruth Porat', '16:00:00', '14/02/2017', 'Twins', '5-5'), (3, 1, 'C1', 'C1-2-3', 'Diane Greene', 'Ruth Porat', '14:00:00', '16/02/2017', 'Legend', 'Diane Greene gave up'), (4, 1, 'C2', 'C2-1-2', 'Elon Musk', 'Eric Schmidt', '18:00:00', '16/02/2017', 'Carmen', '5-5'), (5, 1, 'C2', 'C2-1-3', 'Elon Musk', 'Liam Wong', '12:00:00', '16/02/2017', 'Twins', '6-4'), (6, 1, 'C2', 'C2-2-3', 'Eric Schmidt', 'Liam Wong', '14:00:00', '15/02/2017', 'Legend', '5-5'), (7, 1, 'C3', 'C3-1-2', 'Sergey Brin', 'Lawrence Page', '14:00:00', '13/02/2017', 'Legend', 'Sergey Brin gave up'), (8, 1, 'C3', 'C3-1-3', 'Sergey Brin', 'John Doerr', '14:00:00', '16/02/2017', 'Legend', 'Sergey Brin gave up'), (9, 1, 'C3', 'C3-1-4', 'Sergey Brin', 'Sean Almond', '14:00:00', '17/02/2017', 'Legend', 'Sergey Brin gave up'), (10, 1, 'C3', 'C3-2-3', 'Lawrence Page', 'John Doerr', '19:00:00', '17/02/2017', 'Twins', '6-4'), (11, 1, 'C3', 'C3-2-4', 'Lawrence Page', 'Sean Almond', '19:00:00', '13/02/2017', 'Carmen', '8-2'), (12, 1, 'C3', 'C3-3-4', 'John Doerr', 'Sean Almond', '22:00:00', '16/02/2017', 'Twins', '4-6'), (13, 1, 'C4', 'C4-1-2', 'Ram Shriram', 'Roger Ferguson', '14:00:00', '15/02/2017', 'Professional', '7-3'), (14, 1, 'C4', 'C4-1-3', 'Ram Shriram', 'Bill Gates', '18:00:00', '14/02/2017', 'Carmen', '4-6'), (15, 1, 'C4', 'C4-1-4', 'Ram Shriram', 'Troy Sincock', '14:00:00', '13/02/2017', 'Carmen', '9-1'), (16, 1, 'C4', 'C4-2-3', 'Roger Ferguson', 'Bill Gates', '15:00:00', '15/02/2017', 'Professional', '6-4'), (17, 1, 'C4', 'C4-2-4', 'Roger Ferguson', 'Troy Sincock', '13:00:00', '15/02/2017', 'Professional', '6-4'), (18, 1, 'C4', 'C4-3-4', 'Bill Gates', 'Troy Sincock', '12:00:00', '15/02/2017', 'Professional', '9-1'), (19, 1, 'D1', 'D1-1-2', 'Paul Otellini', 'Ann Mather', '15:00:00', '15/02/2017', 'Twins', '8-2'), (20, 1, 'D1', 'D1-1-3', 'Paul Otellini', 'Sheryl Sandberg', '14:00:00', '14/02/2017', 'Twins', '7-3'), (21, 1, 'D1', 'D1-2-3', 'Ann Mather', 'Sheryl Sandberg', '17:00:00', '13/02/2017', 'Carmen', '1-9'), (22, 1, 'D2', 'D2-1-2', 'David Drummond', 'Elizabeth Katze', '15:00:00', '14/02/2017', 'Legend', '6-4'), (23, 1, 'D2', 'D2-1-3', 'David Drummond', 'Lex Bayer', '17:00:00', '13/02/2017', 'Professional', '7-3'), (24, 1, 'D2', 'D2-2-3', 'Elizabeth Katze', 'Lex Bayer', '19:00:00', '13/02/2017', 'Carmen', '6-4'), (25, 1, 'D3', 'D3-1-2', 'Andrea Belotti', 'Nathan Blecharczyk', '14:00:00', '15/02/2017', 'Legend', '7-3'), (26, 1, 'D3', 'D3-1-3', 'Andrea Belotti', 'Brian Chesky', '20:00:00', '16/02/2017', 'Legend', '4-6'), (27, 1, 'D3', 'D3-1-4', 'Andrea Belotti', 'Joe Gebbia', '20:00:00', '17/02/2017', 'Legend', '3-6'), (28, 1, 'D3', 'D3-2-3', 'Nathan Blecharczyk', 'Brian Chesky', '18:00:00', '13/02/2017', 'Legend', '4-6'), (29, 1, 'D3', 'D3-2-4', 'Nathan Blecharczyk', 'Joe Gebbia', '15:00:00', '14/02/2017', 'Carmen', '5-5'), (30, 1, 'D3', 'D3-3-4', 'Brian Chesky', 'Joe Gebbia', '18:00:00', '17/02/2017', 'Legend', '3-7'), (31, 1, 'D4', 'D4-1-2', 'Douglas Atkin', 'Joe Zadeh', '19:00:00', '16/02/2017', 'Legend', '4-6'), (32, 1, 'D4', 'D4-1-3', 'Douglas Atkin', 'Chip Conley', '16:00:00', '14/02/2017', 'Carmen', '10-0'), (33, 1, 'D4', 'D4-2-3', 'Joe Zadeh', 'Chip Conley', '17:00:00', '14/02/2017', 'Carmen', '8-2')"}
+Error: ER_DUP_ENTRY: Duplicate entry '2' for key 'PRIMARY'
+    at Query.Sequence._packetToError (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:200:25)
+    at Promise (C:\Users\W10\Desktop\challenge\services\db.js:49:20)
+    at new Promise (<anonymous>)
+    at simpleQuery (C:\Users\W10\Desktop\challenge\services\db.js:48:12)
+    at C:\Users\W10\Desktop\challenge\services\db.js:75:9
+    at new Promise (<anonymous>)
+    at Object.excuteQuery (C:\Users\W10\Desktop\challenge\services\db.js:74:12)
+    at Promise (C:\Users\W10\Desktop\challenge\services\match.js:22:20)
+    at <anonymous> 
+20:39:03.459 INFO  ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Zuckerberg'%' OR player1 like '%'Zuckerberg'%' OR name like '%'Zuckerberg'%')' at line 1
+{"code":"ER_PARSE_ERROR","errno":1064,"sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Zuckerberg'%' OR player1 like '%'Zuckerberg'%' OR name like '%'Zuckerberg'%')' at line 1","sqlState":"42000","index":0,"sql":"SELECT m.*, s.name, s.description FROM `match` m, season s WHERE m.season_id = s.id AND (player1 like '%'Zuckerberg'%' OR player1 like '%'Zuckerberg'%' OR name like '%'Zuckerberg'%')"}
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Zuckerberg'%' OR player1 like '%'Zuckerberg'%' OR name like '%'Zuckerberg'%')' at line 1
+    at Query.Sequence._packetToError (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:200:25)
+    at Promise (C:\Users\W10\Desktop\challenge\services\db.js:49:20)
+    at new Promise (<anonymous>)
+    at simpleQuery (C:\Users\W10\Desktop\challenge\services\db.js:48:12)
+    at C:\Users\W10\Desktop\challenge\services\db.js:92:9
+    at new Promise (<anonymous>)
+    at Object.findAllQuery (C:\Users\W10\Desktop\challenge\services\db.js:91:12)
+    at Promise (C:\Users\W10\Desktop\challenge\services\match.js:110:12)
+    at new Promise (<anonymous>) 
+20:40:16.016 INFO  ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Zuckerberg'%' OR player1 like '%'Zuckerberg'%' OR name like '%'Zuckerberg'%'' at line 1
+{"code":"ER_PARSE_ERROR","errno":1064,"sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Zuckerberg'%' OR player1 like '%'Zuckerberg'%' OR name like '%'Zuckerberg'%'' at line 1","sqlState":"42000","index":0,"sql":"SELECT m.*, s.name, s.description FROM `match` m, season s WHERE m.season_id = s.id AND (player1 like '%'Zuckerberg'%' OR player1 like '%'Zuckerberg'%' OR name like '%'Zuckerberg'%'"}
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Zuckerberg'%' OR player1 like '%'Zuckerberg'%' OR name like '%'Zuckerberg'%'' at line 1
+    at Query.Sequence._packetToError (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:200:25)
+    at Promise (C:\Users\W10\Desktop\challenge\services\db.js:49:20)
+    at new Promise (<anonymous>)
+    at simpleQuery (C:\Users\W10\Desktop\challenge\services\db.js:48:12)
+    at C:\Users\W10\Desktop\challenge\services\db.js:92:9
+    at new Promise (<anonymous>)
+    at Object.findAllQuery (C:\Users\W10\Desktop\challenge\services\db.js:91:12)
+    at Promise (C:\Users\W10\Desktop\challenge\services\match.js:110:12)
+    at new Promise (<anonymous>) 
+20:41:37.149 INFO  ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '\'asdsad\''%' OR player1 like '%'\'asdsad\''%' OR name like '%'\'asdsad\''%'' at line 1
+{"code":"ER_PARSE_ERROR","errno":1064,"sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '\\'asdsad\\''%' OR player1 like '%'\\'asdsad\\''%' OR name like '%'\\'asdsad\\''%'' at line 1","sqlState":"42000","index":0,"sql":"SELECT m.*, s.name, s.description FROM `match` m, season s WHERE m.season_id = s.id AND (player1 like '%'\\'asdsad\\''%' OR player1 like '%'\\'asdsad\\''%' OR name like '%'\\'asdsad\\''%'"}
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '\'asdsad\''%' OR player1 like '%'\'asdsad\''%' OR name like '%'\'asdsad\''%'' at line 1
+    at Query.Sequence._packetToError (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:200:25)
+    at Promise (C:\Users\W10\Desktop\challenge\services\db.js:49:20)
+    at new Promise (<anonymous>)
+    at simpleQuery (C:\Users\W10\Desktop\challenge\services\db.js:48:12)
+    at C:\Users\W10\Desktop\challenge\services\db.js:92:9
+    at new Promise (<anonymous>)
+    at Object.findAllQuery (C:\Users\W10\Desktop\challenge\services\db.js:91:12)
+    at Promise (C:\Users\W10\Desktop\challenge\services\match.js:110:12)
+    at new Promise (<anonymous>) 
+20:42:50.882 INFO  ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''match' m, season s WHERE m.season_id = s.id AND (player1 like '%'asdsad'%' OR p' at line 1
+{"code":"ER_PARSE_ERROR","errno":1064,"sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''match' m, season s WHERE m.season_id = s.id AND (player1 like '%'asdsad'%' OR p' at line 1","sqlState":"42000","index":0,"sql":"SELECT m.*, s.name, s.description FROM 'match' m, season s WHERE m.season_id = s.id AND (player1 like '%'asdsad'%' OR player1 like '%'asdsad'%' OR name like '%'asdsad'%'"}
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''match' m, season s WHERE m.season_id = s.id AND (player1 like '%'asdsad'%' OR p' at line 1
+    at Query.Sequence._packetToError (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:200:25)
+    at Promise (C:\Users\W10\Desktop\challenge\services\db.js:49:20)
+    at new Promise (<anonymous>)
+    at simpleQuery (C:\Users\W10\Desktop\challenge\services\db.js:48:12)
+    at C:\Users\W10\Desktop\challenge\services\db.js:92:9
+    at new Promise (<anonymous>)
+    at Object.findAllQuery (C:\Users\W10\Desktop\challenge\services\db.js:91:12)
+    at Promise (C:\Users\W10\Desktop\challenge\services\match.js:110:12)
+    at new Promise (<anonymous>) 
+20:45:09.542 INFO  ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '\'asdsad\''%' OR player1 like '%'\'asdsad\''%' OR name like '%'\'asdsad\''%'' at line 1
+{"code":"ER_PARSE_ERROR","errno":1064,"sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '\\'asdsad\\''%' OR player1 like '%'\\'asdsad\\''%' OR name like '%'\\'asdsad\\''%'' at line 1","sqlState":"42000","index":0,"sql":"SELECT m.*, s.name, s.description FROM `match` m, season s WHERE m.season_id = s.id AND (player1 like '%'\\'asdsad\\''%' OR player1 like '%'\\'asdsad\\''%' OR name like '%'\\'asdsad\\''%'"}
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '\'asdsad\''%' OR player1 like '%'\'asdsad\''%' OR name like '%'\'asdsad\''%'' at line 1
+    at Query.Sequence._packetToError (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:200:25)
+    at Promise (C:\Users\W10\Desktop\challenge\services\db.js:49:20)
+    at new Promise (<anonymous>)
+    at simpleQuery (C:\Users\W10\Desktop\challenge\services\db.js:48:12)
+    at C:\Users\W10\Desktop\challenge\services\db.js:92:9
+    at new Promise (<anonymous>)
+    at Object.findAllQuery (C:\Users\W10\Desktop\challenge\services\db.js:91:12)
+    at Promise (C:\Users\W10\Desktop\challenge\services\match.js:110:12)
+    at new Promise (<anonymous>) 
+20:45:15.336 INFO  ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'asdsad'%' OR player1 like '%'asdsad'%' OR name like '%'asdsad'%'' at line 1
+{"code":"ER_PARSE_ERROR","errno":1064,"sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'asdsad'%' OR player1 like '%'asdsad'%' OR name like '%'asdsad'%'' at line 1","sqlState":"42000","index":0,"sql":"SELECT m.*, s.name, s.description FROM `match` m, season s WHERE m.season_id = s.id AND (player1 like '%'asdsad'%' OR player1 like '%'asdsad'%' OR name like '%'asdsad'%'"}
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'asdsad'%' OR player1 like '%'asdsad'%' OR name like '%'asdsad'%'' at line 1
+    at Query.Sequence._packetToError (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:200:25)
+    at Promise (C:\Users\W10\Desktop\challenge\services\db.js:49:20)
+    at new Promise (<anonymous>)
+    at simpleQuery (C:\Users\W10\Desktop\challenge\services\db.js:48:12)
+    at C:\Users\W10\Desktop\challenge\services\db.js:92:9
+    at new Promise (<anonymous>)
+    at Object.findAllQuery (C:\Users\W10\Desktop\challenge\services\db.js:91:12)
+    at Promise (C:\Users\W10\Desktop\challenge\services\match.js:110:12)
+    at new Promise (<anonymous>) 
+20:45:23.145 INFO  ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'hello qw'%' OR player1 like '%'hello qw'%' OR name like '%'hello qw'%'' at line 1
+{"code":"ER_PARSE_ERROR","errno":1064,"sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'hello qw'%' OR player1 like '%'hello qw'%' OR name like '%'hello qw'%'' at line 1","sqlState":"42000","index":0,"sql":"SELECT m.*, s.name, s.description FROM `match` m, season s WHERE m.season_id = s.id AND (player1 like '%'hello qw'%' OR player1 like '%'hello qw'%' OR name like '%'hello qw'%'"}
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'hello qw'%' OR player1 like '%'hello qw'%' OR name like '%'hello qw'%'' at line 1
+    at Query.Sequence._packetToError (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:200:25)
+    at Promise (C:\Users\W10\Desktop\challenge\services\db.js:49:20)
+    at new Promise (<anonymous>)
+    at simpleQuery (C:\Users\W10\Desktop\challenge\services\db.js:48:12)
+    at C:\Users\W10\Desktop\challenge\services\db.js:92:9
+    at new Promise (<anonymous>)
+    at Object.findAllQuery (C:\Users\W10\Desktop\challenge\services\db.js:91:12)
+    at Promise (C:\Users\W10\Desktop\challenge\services\match.js:110:12)
+    at new Promise (<anonymous>) 
+20:45:50.322 INFO  ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'hello'%' OR player1 like '%'hello'%' OR name like '%'hello'%'' at line 1
+{"code":"ER_PARSE_ERROR","errno":1064,"sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'hello'%' OR player1 like '%'hello'%' OR name like '%'hello'%'' at line 1","sqlState":"42000","index":0,"sql":"SELECT m.*, s.name, s.description FROM `match` m, season s WHERE m.season_id = s.id AND (player1 like '%'hello'%' OR player1 like '%'hello'%' OR name like '%'hello'%'"}
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'hello'%' OR player1 like '%'hello'%' OR name like '%'hello'%'' at line 1
+    at Query.Sequence._packetToError (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:200:25)
+    at Promise (C:\Users\W10\Desktop\challenge\services\db.js:49:20)
+    at new Promise (<anonymous>)
+    at simpleQuery (C:\Users\W10\Desktop\challenge\services\db.js:48:12)
+    at C:\Users\W10\Desktop\challenge\services\db.js:92:9
+    at new Promise (<anonymous>)
+    at Object.findAllQuery (C:\Users\W10\Desktop\challenge\services\db.js:91:12)
+    at Promise (C:\Users\W10\Desktop\challenge\services\match.js:110:12)
+    at new Promise (<anonymous>) 
+20:50:05.751 INFO  ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'hello'%' OR m.player2 like '%'hello'%' OR s.name like '%'hello'%')' at line 1
+{"code":"ER_PARSE_ERROR","errno":1064,"sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'hello'%' OR m.player2 like '%'hello'%' OR s.name like '%'hello'%')' at line 1","sqlState":"42000","index":0,"sql":"SELECT m.*, s.name, s.description FROM `match` m, season s WHERE m.season_id = s.id AND (m.player1 like '%'hello'%' OR m.player2 like '%'hello'%' OR s.name like '%'hello'%')"}
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'hello'%' OR m.player2 like '%'hello'%' OR s.name like '%'hello'%')' at line 1
+    at Query.Sequence._packetToError (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:200:25)
+    at Promise (C:\Users\W10\Desktop\challenge\services\db.js:49:20)
+    at new Promise (<anonymous>)
+    at simpleQuery (C:\Users\W10\Desktop\challenge\services\db.js:48:12)
+    at C:\Users\W10\Desktop\challenge\services\db.js:92:9
+    at new Promise (<anonymous>)
+    at Object.findAllQuery (C:\Users\W10\Desktop\challenge\services\db.js:91:12)
+    at Promise (C:\Users\W10\Desktop\challenge\services\match.js:110:12)
+    at new Promise (<anonymous>) 
+20:52:44.401 INFO  ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''match' m, season s WHERE m.season_id = s.id AND (m.player1 like '%hello%' OR m.' at line 1
+{"code":"ER_PARSE_ERROR","errno":1064,"sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''match' m, season s WHERE m.season_id = s.id AND (m.player1 like '%hello%' OR m.' at line 1","sqlState":"42000","index":0,"sql":"SELECT m.*, s.name, s.description FROM 'match' m, season s WHERE m.season_id = s.id AND (m.player1 like '%hello%' OR m.player2 like '%hello%' OR s.name like '%hello%')"}
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''match' m, season s WHERE m.season_id = s.id AND (m.player1 like '%hello%' OR m.' at line 1
+    at Query.Sequence._packetToError (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:200:25)
+    at Promise (C:\Users\W10\Desktop\challenge\services\db.js:49:20)
+    at new Promise (<anonymous>)
+    at simpleQuery (C:\Users\W10\Desktop\challenge\services\db.js:48:12)
+    at C:\Users\W10\Desktop\challenge\services\db.js:92:9
+    at new Promise (<anonymous>)
+    at Object.findAllQuery (C:\Users\W10\Desktop\challenge\services\db.js:91:12)
+    at Promise (C:\Users\W10\Desktop\challenge\services\match.js:112:12)
+    at new Promise (<anonymous>) 
+20:53:57.619 INFO  ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'match m, season s WHERE m.season_id = s.id AND (m.player1 like '%hello%' OR m.pl' at line 1
+{"code":"ER_PARSE_ERROR","errno":1064,"sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'match m, season s WHERE m.season_id = s.id AND (m.player1 like '%hello%' OR m.pl' at line 1","sqlState":"42000","index":0,"sql":"SELECT m.*, s.name, s.description FROM match m, season s WHERE m.season_id = s.id AND (m.player1 like '%hello%' OR m.player2 like '%hello%' OR s.name like '%hello%')"}
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'match m, season s WHERE m.season_id = s.id AND (m.player1 like '%hello%' OR m.pl' at line 1
+    at Query.Sequence._packetToError (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:200:25)
+    at Promise (C:\Users\W10\Desktop\challenge\services\db.js:49:20)
+    at new Promise (<anonymous>)
+    at simpleQuery (C:\Users\W10\Desktop\challenge\services\db.js:48:12)
+    at C:\Users\W10\Desktop\challenge\services\db.js:92:9
+    at new Promise (<anonymous>)
+    at Object.findAllQuery (C:\Users\W10\Desktop\challenge\services\db.js:91:12)
+    at Promise (C:\Users\W10\Desktop\challenge\services\match.js:112:12)
+    at new Promise (<anonymous>) 
+21:00:32.918 INFO  ER_NO_SUCH_TABLE: Table 'challenge.match' doesn't exist
+{"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlMessage":"Table 'challenge.match' doesn't exist","sqlState":"42S02","index":0,"sql":"INSERT INTO `match` (id, season_id, `group`, match_code, player1, player2, `time`, `date`, venue, score) VALUES  (1, 1, 'C1', 'C1-1-2', 'Mark Zuckerberg', 'Diane Greene', '14:00:00', '16/02/2017', 'Legend', 'Diane Greene gave up'), (2, 1, 'C1', 'C1-1-3', 'Mark Zuckerberg', 'Ruth Porat', '16:00:00', '14/02/2017', 'Twins', '5-5'), (3, 1, 'C1', 'C1-2-3', 'Diane Greene', 'Ruth Porat', '14:00:00', '16/02/2017', 'Legend', 'Diane Greene gave up'), (4, 1, 'C2', 'C2-1-2', 'Elon Musk', 'Eric Schmidt', '18:00:00', '16/02/2017', 'Carmen', '5-5'), (5, 1, 'C2', 'C2-1-3', 'Elon Musk', 'Liam Wong', '12:00:00', '16/02/2017', 'Twins', '6-4'), (6, 1, 'C2', 'C2-2-3', 'Eric Schmidt', 'Liam Wong', '14:00:00', '15/02/2017', 'Legend', '5-5'), (7, 1, 'C3', 'C3-1-2', 'Sergey Brin', 'Lawrence Page', '14:00:00', '13/02/2017', 'Legend', 'Sergey Brin gave up'), (8, 1, 'C3', 'C3-1-3', 'Sergey Brin', 'John Doerr', '14:00:00', '16/02/2017', 'Legend', 'Sergey Brin gave up'), (9, 1, 'C3', 'C3-1-4', 'Sergey Brin', 'Sean Almond', '14:00:00', '17/02/2017', 'Legend', 'Sergey Brin gave up'), (10, 1, 'C3', 'C3-2-3', 'Lawrence Page', 'John Doerr', '19:00:00', '17/02/2017', 'Twins', '6-4'), (11, 1, 'C3', 'C3-2-4', 'Lawrence Page', 'Sean Almond', '19:00:00', '13/02/2017', 'Carmen', '8-2'), (12, 1, 'C3', 'C3-3-4', 'John Doerr', 'Sean Almond', '22:00:00', '16/02/2017', 'Twins', '4-6'), (13, 1, 'C4', 'C4-1-2', 'Ram Shriram', 'Roger Ferguson', '14:00:00', '15/02/2017', 'Professional', '7-3'), (14, 1, 'C4', 'C4-1-3', 'Ram Shriram', 'Bill Gates', '18:00:00', '14/02/2017', 'Carmen', '4-6'), (15, 1, 'C4', 'C4-1-4', 'Ram Shriram', 'Troy Sincock', '14:00:00', '13/02/2017', 'Carmen', '9-1'), (16, 1, 'C4', 'C4-2-3', 'Roger Ferguson', 'Bill Gates', '15:00:00', '15/02/2017', 'Professional', '6-4'), (17, 1, 'C4', 'C4-2-4', 'Roger Ferguson', 'Troy Sincock', '13:00:00', '15/02/2017', 'Professional', '6-4'), (18, 1, 'C4', 'C4-3-4', 'Bill Gates', 'Troy Sincock', '12:00:00', '15/02/2017', 'Professional', '9-1'), (19, 1, 'D1', 'D1-1-2', 'Paul Otellini', 'Ann Mather', '15:00:00', '15/02/2017', 'Twins', '8-2'), (20, 1, 'D1', 'D1-1-3', 'Paul Otellini', 'Sheryl Sandberg', '14:00:00', '14/02/2017', 'Twins', '7-3'), (21, 1, 'D1', 'D1-2-3', 'Ann Mather', 'Sheryl Sandberg', '17:00:00', '13/02/2017', 'Carmen', '1-9'), (22, 1, 'D2', 'D2-1-2', 'David Drummond', 'Elizabeth Katze', '15:00:00', '14/02/2017', 'Legend', '6-4'), (23, 1, 'D2', 'D2-1-3', 'David Drummond', 'Lex Bayer', '17:00:00', '13/02/2017', 'Professional', '7-3'), (24, 1, 'D2', 'D2-2-3', 'Elizabeth Katze', 'Lex Bayer', '19:00:00', '13/02/2017', 'Carmen', '6-4'), (25, 1, 'D3', 'D3-1-2', 'Andrea Belotti', 'Nathan Blecharczyk', '14:00:00', '15/02/2017', 'Legend', '7-3'), (26, 1, 'D3', 'D3-1-3', 'Andrea Belotti', 'Brian Chesky', '20:00:00', '16/02/2017', 'Legend', '4-6'), (27, 1, 'D3', 'D3-1-4', 'Andrea Belotti', 'Joe Gebbia', '20:00:00', '17/02/2017', 'Legend', '3-6'), (28, 1, 'D3', 'D3-2-3', 'Nathan Blecharczyk', 'Brian Chesky', '18:00:00', '13/02/2017', 'Legend', '4-6'), (29, 1, 'D3', 'D3-2-4', 'Nathan Blecharczyk', 'Joe Gebbia', '15:00:00', '14/02/2017', 'Carmen', '5-5'), (30, 1, 'D3', 'D3-3-4', 'Brian Chesky', 'Joe Gebbia', '18:00:00', '17/02/2017', 'Legend', '3-7'), (31, 1, 'D4', 'D4-1-2', 'Douglas Atkin', 'Joe Zadeh', '19:00:00', '16/02/2017', 'Legend', '4-6'), (32, 1, 'D4', 'D4-1-3', 'Douglas Atkin', 'Chip Conley', '16:00:00', '14/02/2017', 'Carmen', '10-0'), (33, 1, 'D4', 'D4-2-3', 'Joe Zadeh', 'Chip Conley', '17:00:00', '14/02/2017', 'Carmen', '8-2')"}
+Error: ER_NO_SUCH_TABLE: Table 'challenge.match' doesn't exist
+    at Query.Sequence._packetToError (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:200:25)
+    at Promise (C:\Users\W10\Desktop\challenge\services\db.js:49:20)
+    at new Promise (<anonymous>)
+    at simpleQuery (C:\Users\W10\Desktop\challenge\services\db.js:48:12)
+    at C:\Users\W10\Desktop\challenge\services\db.js:75:9
+    at new Promise (<anonymous>)
+    at Object.excuteQuery (C:\Users\W10\Desktop\challenge\services\db.js:74:12)
+    at Promise (C:\Users\W10\Desktop\challenge\services\match.js:22:20)
+    at <anonymous> 
+21:26:10.167 INFO  ER_DUP_ENTRY: Duplicate entry '1' for key 'PRIMARY'
+{"code":"ER_DUP_ENTRY","errno":1062,"sqlMessage":"Duplicate entry '1' for key 'PRIMARY'","sqlState":"23000","index":0,"sql":"INSERT INTO `tb_match` (id, season_id, `group`, match_code, player1, player2, `time`, `date`, venue, score) VALUES  (1, 1, 'C1', 'C1-1-2', 'Mark Zuckerberg', 'Diane Greene', '14:00:00', '16/02/2017', 'Legend', 'Diane Greene gave up'), (2, 1, 'C1', 'C1-1-3', 'Mark Zuckerberg', 'Ruth Porat', '16:00:00', '14/02/2017', 'Twins', '5-5'), (3, 1, 'C1', 'C1-2-3', 'Diane Greene', 'Ruth Porat', '14:00:00', '16/02/2017', 'Legend', 'Diane Greene gave up'), (4, 1, 'C2', 'C2-1-2', 'Elon Musk', 'Eric Schmidt', '18:00:00', '16/02/2017', 'Carmen', '5-5'), (5, 1, 'C2', 'C2-1-3', 'Elon Musk', 'Liam Wong', '12:00:00', '16/02/2017', 'Twins', '6-4'), (6, 1, 'C2', 'C2-2-3', 'Eric Schmidt', 'Liam Wong', '14:00:00', '15/02/2017', 'Legend', '5-5'), (7, 1, 'C3', 'C3-1-2', 'Sergey Brin', 'Lawrence Page', '14:00:00', '13/02/2017', 'Legend', 'Sergey Brin gave up'), (8, 1, 'C3', 'C3-1-3', 'Sergey Brin', 'John Doerr', '14:00:00', '16/02/2017', 'Legend', 'Sergey Brin gave up'), (9, 1, 'C3', 'C3-1-4', 'Sergey Brin', 'Sean Almond', '14:00:00', '17/02/2017', 'Legend', 'Sergey Brin gave up'), (10, 1, 'C3', 'C3-2-3', 'Lawrence Page', 'John Doerr', '19:00:00', '17/02/2017', 'Twins', '6-4'), (11, 1, 'C3', 'C3-2-4', 'Lawrence Page', 'Sean Almond', '19:00:00', '13/02/2017', 'Carmen', '8-2'), (12, 1, 'C3', 'C3-3-4', 'John Doerr', 'Sean Almond', '22:00:00', '16/02/2017', 'Twins', '4-6'), (13, 1, 'C4', 'C4-1-2', 'Ram Shriram', 'Roger Ferguson', '14:00:00', '15/02/2017', 'Professional', '7-3'), (14, 1, 'C4', 'C4-1-3', 'Ram Shriram', 'Bill Gates', '18:00:00', '14/02/2017', 'Carmen', '4-6'), (15, 1, 'C4', 'C4-1-4', 'Ram Shriram', 'Troy Sincock', '14:00:00', '13/02/2017', 'Carmen', '9-1'), (16, 1, 'C4', 'C4-2-3', 'Roger Ferguson', 'Bill Gates', '15:00:00', '15/02/2017', 'Professional', '6-4'), (17, 1, 'C4', 'C4-2-4', 'Roger Ferguson', 'Troy Sincock', '13:00:00', '15/02/2017', 'Professional', '6-4'), (18, 1, 'C4', 'C4-3-4', 'Bill Gates', 'Troy Sincock', '12:00:00', '15/02/2017', 'Professional', '9-1'), (19, 1, 'D1', 'D1-1-2', 'Paul Otellini', 'Ann Mather', '15:00:00', '15/02/2017', 'Twins', '8-2'), (20, 1, 'D1', 'D1-1-3', 'Paul Otellini', 'Sheryl Sandberg', '14:00:00', '14/02/2017', 'Twins', '7-3'), (21, 1, 'D1', 'D1-2-3', 'Ann Mather', 'Sheryl Sandberg', '17:00:00', '13/02/2017', 'Carmen', '1-9'), (22, 1, 'D2', 'D2-1-2', 'David Drummond', 'Elizabeth Katze', '15:00:00', '14/02/2017', 'Legend', '6-4'), (23, 1, 'D2', 'D2-1-3', 'David Drummond', 'Lex Bayer', '17:00:00', '13/02/2017', 'Professional', '7-3'), (24, 1, 'D2', 'D2-2-3', 'Elizabeth Katze', 'Lex Bayer', '19:00:00', '13/02/2017', 'Carmen', '6-4'), (25, 1, 'D3', 'D3-1-2', 'Andrea Belotti', 'Nathan Blecharczyk', '14:00:00', '15/02/2017', 'Legend', '7-3'), (26, 1, 'D3', 'D3-1-3', 'Andrea Belotti', 'Brian Chesky', '20:00:00', '16/02/2017', 'Legend', '4-6'), (27, 1, 'D3', 'D3-1-4', 'Andrea Belotti', 'Joe Gebbia', '20:00:00', '17/02/2017', 'Legend', '3-6'), (28, 1, 'D3', 'D3-2-3', 'Nathan Blecharczyk', 'Brian Chesky', '18:00:00', '13/02/2017', 'Legend', '4-6'), (29, 1, 'D3', 'D3-2-4', 'Nathan Blecharczyk', 'Joe Gebbia', '15:00:00', '14/02/2017', 'Carmen', '5-5'), (30, 1, 'D3', 'D3-3-4', 'Brian Chesky', 'Joe Gebbia', '18:00:00', '17/02/2017', 'Legend', '3-7'), (31, 1, 'D4', 'D4-1-2', 'Douglas Atkin', 'Joe Zadeh', '19:00:00', '16/02/2017', 'Legend', '4-6'), (32, 1, 'D4', 'D4-1-3', 'Douglas Atkin', 'Chip Conley', '16:00:00', '14/02/2017', 'Carmen', '10-0'), (33, 1, 'D4', 'D4-2-3', 'Joe Zadeh', 'Chip Conley', '17:00:00', '14/02/2017', 'Carmen', '8-2')"}
+Error: ER_DUP_ENTRY: Duplicate entry '1' for key 'PRIMARY'
+    at Query.Sequence._packetToError (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\W10\Desktop\challenge\node_modules\mysql\lib\Connection.js:200:25)
+    at Promise (C:\Users\W10\Desktop\challenge\services\db.js:49:20)
+    at new Promise (<anonymous>)
+    at simpleQuery (C:\Users\W10\Desktop\challenge\services\db.js:48:12)
+    at C:\Users\W10\Desktop\challenge\services\db.js:75:9
+    at new Promise (<anonymous>)
+    at Object.excuteQuery (C:\Users\W10\Desktop\challenge\services\db.js:74:12)
+    at Promise (C:\Users\W10\Desktop\challenge\services\match.js:22:20)
+    at <anonymous> 
